@@ -10,11 +10,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shale.horde.chem.Main;
+import net.shale.horde.chem.block.extend.combiner;
 import net.shale.horde.chem.block.extend.test_block;
 
 public class blocks {
         public static final Block TEST_BLOCK = registerBlock("test_block",
             new test_block(FabricBlockSettings.of(Material.STONE)
+            ));
+        public static final Block COMBINER = registerBlock("combiner",
+            new combiner(FabricBlockSettings.of(Material.STONE)
             ));
 private static Block registerBlockWithoutBlockItem(String name, Block block) {
     return Registry.register(Registry.BLOCK, new Identifier(Main.ID, name), block);

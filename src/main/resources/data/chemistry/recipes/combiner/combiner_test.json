@@ -1,0 +1,15 @@
+{
+  "type": "chemistry:combiner",
+  "ingredients": [
+    {
+      "item": "chemlib:hydrogen",
+      "count": 2
+    },
+    {
+      "item": "chemlib:oxygen"
+    }
+  ],
+  "output": {
+    "item": "chemlib:water"
+  }
+}
