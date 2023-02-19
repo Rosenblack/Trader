@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "chemistry",
+	"version": "${version}",
+	"name": "Shales Horde: Chemistry",
+	"description": "",
+	"authors": [
+		""
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chemistry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shale.horde.chem.Main"
+		],
+		"client": [
+			"net.shale.horde.chem.Client"
+		]
+	},
+	"mixins": [
+		"chemistry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
