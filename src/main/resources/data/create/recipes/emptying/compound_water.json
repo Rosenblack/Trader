@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "chemlib:water"
+    }
+  ],
+  "results": [
+    {
+      "item": "chemistry:compound_liquid_flask"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 20250
+    }
+  ]
+}

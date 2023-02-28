@@ -1,0 +1,14 @@
+{
+  "type": "chemistry:combiner",
+  "ingredients": [
+    {
+      "item": "chemlib:hydrogen"
+    },
+    {
+      "item": "chemlib:hydrogen"
+    }
+  ],
+  "output": {
+    "item": "chemlib:oxygen"
+  }
+}

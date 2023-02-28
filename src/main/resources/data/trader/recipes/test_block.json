@@ -1,0 +1,14 @@
+{
+  "type": "trader:trader",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "output": {
+    "item": "minecraft:diamond_pickaxe"
+  }
+}
